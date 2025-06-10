@@ -2,8 +2,6 @@
 
 一个基于深度学习和迁移学习的先进神经网络系统，用于高精度地识别婴儿哭声背后的原因。
 
-![](https://raw.githubusercontent.com/skytells-research/DeepInfant/main/Assets/banner.png)
-
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue)](https://www.python.org/)
 [![Framework](https://img.shields.io/badge/Framework-PyTorch-orange.svg)](https://pytorch.org/)
