@@ -1,0 +1,25 @@
+# Core ML Libraries
+torch
+torchvision
+torchaudio
+
+# Data & Scientific Computing
+numpy==1.26.4
+scikit-learn
+pandas
+
+# Audio Processing
+librosa
+audiomentations
+soundfile
+
+# JAMS support for older datasets
+jams
+
+# Plotting & Progress
+matplotlib
+seaborn
+tqdm
+
+# Utility for metadata download
+requests
