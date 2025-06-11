@@ -2,11 +2,7 @@
 
 一个基于深度学习和迁移学习的先进神经网络系统，用于高精度地识别婴儿哭声背后的原因。
 
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-[![Python](https://img.shields.io/badge/Python-3.10%2B-blue)](https://www.python.org/)
-[![Framework](https://img.shields.io/badge/Framework-PyTorch-orange.svg)](https://pytorch.org/)
-[![Accuracy](https://img.shields.io/badge/Accuracy-97.5%25-brightgreen.svg)](https://github.com/skytells-research/DeepCry-Analysis)
-[![F1--Score](https://img.shields.io/badge/Macro%20F1--Score-90.6%25-brightgreen.svg)](https://github.com/skytells-research/DeepCry-Analysis)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]
 
 ## 项目简介
 
@@ -119,4 +115,6 @@ python evaluate_crnn.py --data_dir Data/final_test_set --model_path crnn_model_r
 ```
 
 ## 许可
-本项目采用 **Apache License 2.0** 许可。
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
