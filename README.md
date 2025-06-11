@@ -55,7 +55,7 @@ sudo apt-get update && sudo apt-get install -y ffmpeg
 本项目的数据分为两部分：用于预训练的海量弱标签数据，和用于微调的高质量精标数据。
 
 **A. 准备微调数据 (本地)**
-1.  将您自己的、已按类别分好文件夹的哭声数据，放入 `Data/` 目录下。
+1.  将您自己的、已按类别分好文件夹的哭声数据，放入 `Data/` 目录下。[https://github.com/gveres/donateacry-corpus] [https://github.com/skytells-research/DeepInfant]
 2.  从[Mendeley Data](https://data.mendeley.com/datasets/hbppd883sd/1)下载数据集，解压后放入 `external_data/mendeley_dataset/`。
 3.  运行以下脚本，它会自动整合以上数据源，并进行少量增强，生成最终用于微调的数据集。
     ```bash
