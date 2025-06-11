@@ -1,12 +1,3 @@
 # Python specific
 __pycache__/
 *.pyc
-
-# PyTorch model files
-*.pth
-
-# Executable files
-*.exe
-
-# Project-specific output
-crnn_model_results/
