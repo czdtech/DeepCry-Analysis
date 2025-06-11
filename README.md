@@ -1,12 +1,12 @@
-# DeepInfant: 婴儿哭声识别系统
+# DeepCry-Analysis: 婴儿哭声识别系统
 
 一个基于深度学习和迁移学习的先进神经网络系统，用于高精度地识别婴儿哭声背后的原因。
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue)](https://www.python.org/)
 [![Framework](https://img.shields.io/badge/Framework-PyTorch-orange.svg)](https://pytorch.org/)
-[![Accuracy](https://img.shields.io/badge/Accuracy-97.5%25-brightgreen.svg)](https://github.com/skytells-research/DeepInfant)
-[![F1--Score](https://img.shields.io/badge/Macro%20F1--Score-90.6%25-brightgreen.svg)](https://github.com/skytells-research/DeepInfant)
+[![Accuracy](https://img.shields.io/badge/Accuracy-97.5%25-brightgreen.svg)](https://github.com/skytells-research/DeepCry-Analysis)
+[![F1--Score](https://img.shields.io/badge/Macro%20F1--Score-90.6%25-brightgreen.svg)](https://github.com/skytells-research/DeepCry-Analysis)
 
 ## 项目简介
 
@@ -75,7 +75,7 @@ sudo apt-get update && sudo apt-get install -y ffmpeg
 3.  **执行下载**: 打开一个**Windows命令提示符(cmd)**，进入项目目录，然后运行批处理文件。**这个过程会非常漫长。**
     ```cmd
     e:
-    cd e:\projects\babydontcry\DeepInfant
+    cd e:\projects\babydontcry\DeepCry-Analysis
     download_commands.bat
     ```
 
@@ -111,9 +111,9 @@ python evaluate_crnn.py --data_dir Data/final_test_set --model_path crnn_model_r
 ## 引用
 如果您在研究中使用了本项目，请引用：
 ```
-@article{DeepInfant,
-    title={DeepInfant: A Deep Learning Model for Infant Cry Classification and Analysis},
-    author={Skytells AI Research},
+@article{DeepCry-Analysis,
+    title={DeepCry-Analysis: A Deep Learning Model for Infant Cry Classification and Analysis},
+    author={czdtech},
     year={2025}
 }
 ```
